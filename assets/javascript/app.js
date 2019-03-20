@@ -166,7 +166,6 @@ function viewScore(){
 	$('#timeCount').empty();
 	$('#message').empty();
 	$('#realAnswer').empty();
-
 	$('#finMes').html(alertMes.done);
 	$('#rightAnswers').html("Right Guess: " + correctAnswer);
 	$('#notAnss').html("Wrong Guess: " + notAns);

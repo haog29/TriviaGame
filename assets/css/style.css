@@ -64,6 +64,16 @@ body{
 }
 
 
+.wrapper {
+	background-color: rgb(247, 137, 181);
+	height: 270px;
+	width: 100%;
+	border: 5px dotted white;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+
 .container{
 	border-radius:10px;
 	text-align: center;
@@ -76,6 +86,8 @@ body{
 	-o-border-radius:10px;
 }
 
+
+
 .thisChoice:hover{
 	border-radius:8px;
 	background-color: plum;
@@ -85,23 +97,4 @@ body{
 	-moz-border-radius:8px;
 	-ms-border-radius:8px;
 	-o-border-radius:8px;
-}
-
-.wrapper {
-	background-color: rgb(247, 137, 181);
-	height: 270px;
-	width: 100%;
-	border: 5px dotted white;
-	margin-bottom: 20px;
-	margin-top: 50px;
-	text-align: center;
-}
-
-
-@media screen and (max-width:640px){
-	.container{
-		width: 500px;
-		margin-top: 100px;
-		size: 100%;
-	}	
 }
